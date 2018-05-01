@@ -125,7 +125,6 @@ select { text-transform: none; }
 table { width: 100%; border-collapse: collapse; border-spacing: 0; }
 nav ul,
 nav ol { list-style: none outside none; }
-h3 {color:#ffffff;}
 /* ------------------------------------------------------------ *\
 	Base
 \* ------------------------------------------------------------ */
@@ -247,7 +246,7 @@ blockquote:last-child { margin-bottom: 0; }
 /* ------------------------------------------------------------ *\
 	Footer
 \* ------------------------------------------------------------ */
-.footer { position: fixed; bottom: 0; left: 0; right: 0; background: #47A025; color: #000; padding: 10px 0; text-align: center; }
+.footer { position: fixed; bottom: 0; left: 0; right: 0; background: #47A025; color: #fff; padding: 10px 0; text-align: center; }
 .footer a { font-weight: 300; position: relative; }
 .footer a:after { content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 1px; background: #fff; }
 /* ------------------------------------------------------------ *\
