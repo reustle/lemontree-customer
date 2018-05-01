@@ -125,6 +125,7 @@ select { text-transform: none; }
 table { width: 100%; border-collapse: collapse; border-spacing: 0; }
 nav ul,
 nav ol { list-style: none outside none; }
+h3 {color:#ffffff;}
 /* ------------------------------------------------------------ *\
 	Base
 \* ------------------------------------------------------------ */
