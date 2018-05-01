@@ -1,0 +1,64 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ page.title }} {{ site.recipes_title }}</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/css/images/favicon.ico" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,400,700" rel="stylesheet">
+
+    <!-- Vendor Styles -->
+
+    <!-- App Styles -->
+    <link rel="stylesheet" href="/css/recipe-style.css" />
+
+    <!-- Vendor JS -->
+    <script src="/vendor/jquery-1.12.4.min.js"></script>
+
+    <!-- App JS -->
+    <script src="/js/functions.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+
+    <section class="section">
+        <div class="shell">
+            <div class="intro" style="background-image: url(/css/images/recipes/steps/{{ page.steps_dir }}/header@2x.jpg);">
+                <div class="shell">
+                    <div class="intro__content">
+                        <h1>
+                            <small>Lemontree Recipe:</small>
+                            {{ page.title }}
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            
+            {{ content }}
+            
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="shell">
+            <h3>
+                Need help? <br/>
+
+                <a href="#">Click here to text us</a>
+            </h3>
+        </div><!-- /.shell -->    
+    </footer><!-- /.footer -->
+
+</div><!-- /.wrapper -->
+</body>
+</html>
+
