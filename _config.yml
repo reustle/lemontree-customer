@@ -2,3 +2,9 @@ recipes_title: "– Recipes by Lemontree Foods"
 
 sass:
   style: compressed
+
+gems:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
