@@ -8,3 +8,14 @@ gems:
 
 whitelist:
   - jekyll-redirect-from
+  
+plugins:
+  - jekyll-compress-images
+  
+compress_images:
+  images_path: "css/images/recipes/steps/**/*.{gif,png,jpeg,svg,jpg}"
+  #example http://localhost:4000/css/images/recipes/steps/shells/week13-026.jpg
+
+imageoptim:
+  verbose: true
+
